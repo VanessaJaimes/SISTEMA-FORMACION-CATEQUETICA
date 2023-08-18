@@ -1,0 +1,59 @@
+/* Reset de estilos */
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Estilos para el navbar */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h6{
+    color: #fff;
+}
+header.masthead {
+    position: relative;
+    background-color: #000;
+    background: url("../assets/img/jovenes.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  header.masthead:before {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+  }
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+ .styled-image{
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ }
+ footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.container1 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.spaced-heading{
+    margin: 20px;
+}
