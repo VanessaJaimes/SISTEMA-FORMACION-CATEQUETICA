@@ -1,0 +1,10 @@
+CREATE DATABASE formacion;
+USE formacion;
+CREATE TABLE users(
+id INT(11) NOT NULL AUTO_INCREMENT,
+name VARCHAR(50) DEFAULT NULL,
+identificacion INT(20) DEFAULT NULL,
+password INT(11) DEFAULT NULL,
+PRIMARY KEY (id)
+);
+ DESCRIBE users;

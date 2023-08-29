@@ -1,0 +1,45 @@
+/* Reset de estilos */
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Estilos para el navbar */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    background-color: #563d7c;
+}
+
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 0%;
+}
+ .styled-image{
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    align-items: end;
+ }
+ footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+.container1 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.spaced-heading{
+    margin: 20px;
+}
+.sidebar-heading{
+    font-size: 50%;
+}
