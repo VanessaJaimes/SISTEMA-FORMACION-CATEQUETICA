@@ -1,9 +1,12 @@
 /* Reset de estilos */
-body, ul, li{
+body,
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 /* Estilos para el navbar */
 .navbar {
     background-color: #000;
@@ -13,9 +16,11 @@ body, ul, li{
     justify-content: space-between;
     align-items: center;
 }
-h6{
+
+h6 {
     color: #fff;
 }
+
 header.masthead {
     position: relative;
     background-color: #000;
@@ -23,8 +28,9 @@ header.masthead {
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-  header.masthead:before {
+}
+
+header.masthead:before {
     content: "";
     position: absolute;
     background-color: #000;
@@ -33,7 +39,7 @@ header.masthead {
     top: 0;
     left: 0;
     opacity: 0.6;
-  }
+}
 
 .navbar-logo {
     font-size: 24px;
@@ -41,18 +47,29 @@ header.masthead {
     color: #fff;
     text-decoration: none;
 }
- .styled-image{
+
+.styled-image {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
- }
- footer {
+}
+
+footer {
     background-color: #000;
     color: #fff;
     text-align: center;
 }
+
 .container1 {
     max-width: 1400px;
     margin: 0 auto;
 }
-.spaced-heading{
+
+.spaced-heading {
     margin: 20px;
+}
+
+.titulo-inscripciones {
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    align-items: center;
 }
